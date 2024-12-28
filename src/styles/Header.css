@@ -1,0 +1,53 @@
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    position: relative;
+}
+  
+.brand-logo {
+    width: auto;
+    height: 20px;
+    position: absolute;
+    left: 20px;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    gap: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nav-buttons button {
+    background: none;
+    border: none;
+    color: #000;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.nav-buttons button:hover {
+    text-decoration: underline;
+}
+
+.save-button {
+    position: absolute;
+    right: 5rem;
+    
+}
+.btn{
+    background-color: #0071e1;
+    color: #ffffff;
+    border-radius: 2rem;
+    padding: 8px 15px;
+    border: none;
+    font-size: 14px;
+}
